@@ -1,0 +1,36 @@
+h1{
+	text-align: center;
+	font-size: 40px;
+	text-overflow: left;
+	text-shadow: 1px 1px 1px #000, 
+               3px 3px 5px black;
+                -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
+}
+h1:hover {
+-webkit-transform: rotate(180deg); /* Safari */
+    transform: rotate(180deg);}
+div#game{position: relative;
+			height: 480px;
+			width: 600px;
+			padding: 24px;
+			margin: 0px auto;
+
+            
+		}
+        
+		div#game > div{
+			
+			border: 1px solid black;
+            border-radius: 8%;
+			width: 100px;
+			height: 70px;
+			float: left;
+			margin: 0px;
+			padding: 24px;
+			font-size: 64px;
+			cursor: pointer;
+			text-align: center;
+			
+		}
+		
